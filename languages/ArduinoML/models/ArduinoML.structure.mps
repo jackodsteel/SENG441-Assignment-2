@@ -167,6 +167,7 @@
     <property role="EcuMT" value="2775757920454169837" />
     <property role="TrG5h" value="Condition" />
     <property role="R5$K7" value="true" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="2q5uhWZ9tjI">
@@ -185,6 +186,7 @@
   <node concept="1TIwiD" id="2q5uhWZ9tIa">
     <property role="EcuMT" value="2775757920454171530" />
     <property role="TrG5h" value="SensorCondition" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" node="2q5uhWZ9tjH" resolve="Condition" />
     <node concept="1TJgyi" id="2q5uhWZ9tId" role="1TKVEl">
       <property role="IQ2nx" value="2775757920454171533" />
