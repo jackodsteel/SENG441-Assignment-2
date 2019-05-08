@@ -98,6 +98,7 @@
       <property role="IQ2ns" value="8266829149538414092" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="conditions" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2q5uhWZ9tjH" resolve="Condition" />
     </node>
     <node concept="PrWs8" id="2q5uhWZ6T1x" role="PzmwI">
