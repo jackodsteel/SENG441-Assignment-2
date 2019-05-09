@@ -13,6 +13,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Actuator;
   private ConceptPresentation props_App;
   private ConceptPresentation props_Condition;
+  private ConceptPresentation props_ConditionRef;
   private ConceptPresentation props_Sensor;
   private ConceptPresentation props_SensorCondition;
   private ConceptPresentation props_State;
@@ -52,6 +53,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Condition = cpb.create();
         }
         return props_Condition;
+      case LanguageConceptSwitch.ConditionRef:
+        if (props_ConditionRef == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x317184a93da45e98L, 0x317184a93da45e99L, "condition", "", "");
+          props_ConditionRef = cpb.create();
+        }
+        return props_ConditionRef;
       case LanguageConceptSwitch.Sensor:
         if (props_Sensor == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -62,7 +70,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.SensorCondition:
         if (props_SensorCondition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByReference(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25db8aL, 0x2685791f3f25db8fL, "sensor", "", "");
+          cpb.presentationByName();
           props_SensorCondition = cpb.create();
         }
         return props_SensorCondition;
@@ -83,7 +91,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.TimerCondition:
         if (props_TimerCondition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByReference(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25db9bL, 0x2685791f3f25db9cL, "timer", "", "");
+          cpb.presentationByName();
           props_TimerCondition = cpb.create();
         }
         return props_TimerCondition;

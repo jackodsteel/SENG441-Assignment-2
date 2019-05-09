@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="662d4de5-1c93-4765-9ae1-56648221cb83" name="ArduinoML">
+      <concept id="3562774642645294744" name="ArduinoML.structure.ConditionRef" flags="ng" index="cPtCL">
+        <reference id="3562774642645294745" name="condition" index="cPtCK" />
+      </concept>
       <concept id="2775757920452908636" name="ArduinoML.structure.Action" flags="ng" index="p_YX3">
         <property id="2775757920452908637" name="signal" index="p_YX2" />
         <reference id="2775757920452908639" name="target" index="p_YX0" />
@@ -19,6 +22,7 @@
       </concept>
       <concept id="2775757920452908612" name="ArduinoML.structure.App" flags="ng" index="p_YXr">
         <reference id="2775757920454175671" name="initial" index="pC9aC" />
+        <child id="3562774642644940785" name="conditions" index="cVRdo" />
         <child id="2775757920452908619" name="actuators" index="p_YXk" />
         <child id="2775757920452908615" name="states" index="p_YXo" />
         <child id="2775757920454175664" name="timers" index="pC9aJ" />
@@ -37,7 +41,7 @@
       <concept id="2775757920454171552" name="ArduinoML.structure.Transition" flags="ng" index="pCaaZ">
         <reference id="2775757920454171557" name="nextState" index="pCaaU" />
         <reference id="2775757920454171555" name="initialState" index="pCaaW" />
-        <child id="2775757920454171560" name="condition" index="pCaaR" />
+        <child id="3562774642645294752" name="conditions" index="cPtC9" />
       </concept>
       <concept id="2775757920454169838" name="ArduinoML.structure.Sensor" flags="ng" index="pCaRL">
         <property id="2775757920454171528" name="pin" index="pCaan" />
@@ -52,6 +56,20 @@
   <node concept="p_YXr" id="2q5uhWZ9JBu">
     <property role="TrG5h" value="Seven seg" />
     <ref role="pC9aC" node="2q5uhWZc$T0" resolve="zero" />
+    <node concept="pCaal" id="35Lxa$XE641" role="cVRdo">
+      <property role="TrG5h" value="buttonPressed" />
+      <ref role="pCaag" node="2q5uhWZc_pW" resolve="button" />
+    </node>
+    <node concept="pCaal" id="35Lxa$XE64j" role="cVRdo">
+      <property role="TrG5h" value="buttonNotPressed" />
+      <property role="pCaai" value="LOW" />
+      <ref role="pCaag" node="2q5uhWZc_pW" resolve="button" />
+    </node>
+    <node concept="pCaa4" id="35Lxa$XE64B" role="cVRdo">
+      <property role="TrG5h" value="oneSecond" />
+      <property role="pCaa1" value="1000" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
     <node concept="pCaRL" id="2q5uhWZc_pW" role="pC9aP">
       <property role="TrG5h" value="button" />
       <property role="pCaan" value="10" />
@@ -216,64 +234,59 @@
       <property role="TrG5h" value="zeroToOne" />
       <ref role="pCaaW" node="2q5uhWZc$T0" resolve="zero" />
       <ref role="pCaaU" node="2q5uhWZc$W9" resolve="one" />
-      <node concept="pCaa4" id="2q5uhWZ9JBU" role="pCaaR">
-        <property role="pCaa1" value="1000" />
-        <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+      <node concept="cPtCL" id="35Lxa$XE66f" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
       </node>
     </node>
     <node concept="pCaaZ" id="2q5uhWZc_o6" role="pC9aU">
       <property role="TrG5h" value="oneToTwo" />
       <ref role="pCaaW" node="2q5uhWZc$W9" resolve="one" />
       <ref role="pCaaU" node="2q5uhWZc_oc" resolve="two" />
-      <node concept="pCaa4" id="2q5uhWZc_pI" role="pCaaR">
-        <property role="pCaa1" value="1000" />
-        <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+      <node concept="cPtCL" id="35Lxa$XE66h" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
       </node>
     </node>
     <node concept="pCaaZ" id="2q5uhWZc_pL" role="pC9aU">
       <property role="TrG5h" value="twoToZero" />
       <ref role="pCaaW" node="2q5uhWZc_oc" resolve="two" />
       <ref role="pCaaU" node="2q5uhWZc$T0" resolve="zero" />
-      <node concept="pCaa4" id="2q5uhWZc_pT" role="pCaaR">
-        <property role="pCaa1" value="1000" />
-        <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+      <node concept="cPtCL" id="35Lxa$XE66d" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
       </node>
     </node>
     <node concept="pCaaZ" id="2q5uhWZc_se" role="pC9aU">
       <property role="TrG5h" value="resetZero" />
       <ref role="pCaaW" node="2q5uhWZc$T0" resolve="zero" />
       <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
-      <node concept="pCaal" id="2q5uhWZc_ss" role="pCaaR">
-        <ref role="pCaag" node="2q5uhWZc_pW" resolve="button" />
+      <node concept="cPtCL" id="35Lxa$XE66b" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
       </node>
     </node>
     <node concept="pCaaZ" id="2q5uhWZc_sv" role="pC9aU">
       <property role="TrG5h" value="resetOne" />
       <ref role="pCaaW" node="2q5uhWZc$W9" resolve="one" />
       <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
-      <node concept="pCaal" id="2q5uhWZc_sF" role="pCaaR">
-        <ref role="pCaag" node="2q5uhWZc_pW" resolve="button" />
+      <node concept="cPtCL" id="35Lxa$XE669" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
       </node>
     </node>
     <node concept="pCaaZ" id="2q5uhWZc_sI" role="pC9aU">
       <property role="TrG5h" value="resetTwo" />
       <ref role="pCaaW" node="2q5uhWZc_oc" resolve="two" />
       <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
-      <node concept="pCaal" id="2q5uhWZc_sW" role="pCaaR">
-        <ref role="pCaag" node="2q5uhWZc_pW" resolve="button" />
+      <node concept="cPtCL" id="35Lxa$XE667" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
       </node>
     </node>
     <node concept="pCaaZ" id="2q5uhWZc_sZ" role="pC9aU">
       <property role="TrG5h" value="resetToZero" />
       <ref role="pCaaW" node="2q5uhWZc_q8" resolve="reset" />
       <ref role="pCaaU" node="2q5uhWZc$T0" resolve="zero" />
-      <node concept="pCaal" id="2q5uhWZc_tf" role="pCaaR">
-        <property role="pCaai" value="LOW" />
-        <ref role="pCaag" node="2q5uhWZc_pW" resolve="button" />
+      <node concept="cPtCL" id="35Lxa$XE664" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
       </node>
-      <node concept="pCaa4" id="2q5uhWZc_tl" role="pCaaR">
-        <property role="pCaa1" value="1000" />
-        <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+      <node concept="cPtCL" id="35Lxa$XE65K" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64j" resolve="buttonNotPressed" />
       </node>
     </node>
   </node>

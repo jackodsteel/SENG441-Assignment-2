@@ -89,6 +89,8 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     editorCell.addEditorCell(createCollection_6());
     editorCell.addEditorCell(createEmpty_5());
     editorCell.addEditorCell(createCollection_7());
+    editorCell.addEditorCell(createEmpty_6());
+    editorCell.addEditorCell(createCollection_8());
     return editorCell;
   }
   private EditorCell createCollection_1() {
@@ -102,7 +104,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "application");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Application");
     editorCell.setCellId("Constant_g38wqt_a0a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -157,7 +159,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     return editorCell;
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Initial State:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Initial state:");
     editorCell.setCellId("Constant_g38wqt_b2a");
     editorCell.setDefaultText("");
     return editorCell;
@@ -690,6 +692,94 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     private EditorCell createConstant_6() {
       EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "no timers defined");
       editorCell.setCellId("Constant_g38wqt_a1m0");
+      editorCell.setDefaultText("");
+      return editorCell;
+    }
+  }
+  private EditorCell createEmpty_6() {
+    EditorCell_Empty editorCell = new EditorCell_Empty(getEditorContext(), myNode);
+    editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(editorCell.getSNode(), CellAction_DeleteNode.DeleteDirection.FORWARD));
+    editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(editorCell.getSNode(), CellAction_DeleteNode.DeleteDirection.BACKWARD));
+    editorCell.setCellId("Empty_g38wqt_n0");
+    return editorCell;
+  }
+  private EditorCell createCollection_8() {
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Indent());
+    editorCell.setCellId("Collection_g38wqt_o0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
+    editorCell.addEditorCell(createIndentCell_6());
+    editorCell.addEditorCell(createRefNodeList_5());
+    return editorCell;
+  }
+  private EditorCell createIndentCell_6() {
+    EditorCell_Indent editorCell = new EditorCell_Indent(getEditorContext(), myNode);
+    return editorCell;
+  }
+  private EditorCell createRefNodeList_5() {
+    AbstractCellListHandler handler = new App_EditorBuilder_a.conditionsListHandler_g38wqt_b41a(myNode, getEditorContext());
+    EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
+    editorCell.setCellId("refNodeList_conditions");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    editorCell.getStyle().putAll(style);
+    editorCell.setSRole(handler.getElementSRole());
+    return editorCell;
+  }
+  private static class conditionsListHandler_g38wqt_b41a extends RefNodeListHandler {
+    @NotNull
+    private SNode myNode;
+
+    public conditionsListHandler_g38wqt_b41a(SNode ownerNode, EditorContext context) {
+      super(context, false);
+      myNode = ownerNode;
+    }
+
+    @NotNull
+    public SNode getNode() {
+      return myNode;
+    }
+    public SContainmentLink getSLink() {
+      return MetaAdapterFactory.getContainmentLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f129644L, 0x317184a93d9ef7f1L, "conditions");
+    }
+    public SAbstractConcept getChildSConcept() {
+      return MetaAdapterFactory.getConcept(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25d4edL, "ArduinoML.structure.Condition");
+    }
+
+    public EditorCell createNodeCell(SNode elementNode) {
+      EditorCell elementCell = getUpdateSession().updateChildNodeCell(elementNode);
+      installElementCellActions(elementNode, elementCell, false);
+      return elementCell;
+    }
+    public EditorCell createEmptyCell() {
+      getCellFactory().pushCellContext();
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(conditionsListHandler_g38wqt_b41a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f129644L, 0x317184a93d9ef7f1L, "conditions")));
+      try {
+        EditorCell emptyCell = null;
+        emptyCell = createConstant_7();
+        installElementCellActions(null, emptyCell, true);
+        setCellContext(emptyCell);
+        return emptyCell;
+      } finally {
+        getCellFactory().popCellContext();
+      }
+    }
+    public void installElementCellActions(SNode elementNode, EditorCell elementCell, boolean isEmptyCell) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
+        if (elementNode != null) {
+          elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
+          elementCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteNode(elementNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
+        }
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultSubstituteInfo) {
+          elementCell.setSubstituteInfo((isEmptyCell ? new SEmptyContainmentSubstituteInfo(elementCell) : new SChildSubstituteInfo(elementCell)));
+        }
+      }
+    }
+    private EditorCell createConstant_7() {
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "no conditions defied");
+      editorCell.setCellId("Constant_g38wqt_a1o0");
       editorCell.setDefaultText("");
       return editorCell;
     }

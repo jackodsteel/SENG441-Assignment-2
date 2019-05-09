@@ -144,7 +144,7 @@ int main(void)
     }
 
     if (108404047 == curr_state) {
-      if ((digitalRead(10 == LOW) && (timer % 1000 == 0)) {
+      if ((timer % 1000 == 0) && (digitalRead(10 == LOW)) {
         curr_state = 3735208;
         state_zero();
         continue;

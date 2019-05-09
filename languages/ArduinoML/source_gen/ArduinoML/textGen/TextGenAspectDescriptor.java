@@ -28,6 +28,8 @@ public class TextGenAspectDescriptor extends TextGenAspectBase {
         return new Actuator_TextGen();
       case LanguageConceptSwitch.App:
         return new App_TextGen();
+      case LanguageConceptSwitch.ConditionRef:
+        return new ConditionRef_TextGen();
       case LanguageConceptSwitch.SensorCondition:
         return new SensorCondition_TextGen();
       case LanguageConceptSwitch.State:

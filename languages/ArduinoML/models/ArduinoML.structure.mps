@@ -94,8 +94,8 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2q5uhWZ9tIo" resolve="Timer" />
     </node>
-    <node concept="1TJgyj" id="7aTFkZt5eSc" role="1TKVEi">
-      <property role="IQ2ns" value="8266829149538414092" />
+    <node concept="1TJgyj" id="35Lxa$XBJvL" role="1TKVEi">
+      <property role="IQ2ns" value="3562774642644940785" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="conditions" />
       <property role="20lbJX" value="0..n" />
@@ -255,11 +255,23 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2q5uhWZ4Dpk" resolve="State" />
     </node>
-    <node concept="1TJgyj" id="2q5uhWZ9tIC" role="1TKVEi">
-      <property role="IQ2ns" value="2775757920454171560" />
+    <node concept="1TJgyj" id="35Lxa$XD5Uw" role="1TKVEi">
+      <property role="IQ2ns" value="3562774642645294752" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="condition" />
+      <property role="20kJfa" value="conditions" />
       <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="35Lxa$XD5Uo" resolve="ConditionRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="35Lxa$XD5Uo">
+    <property role="EcuMT" value="3562774642645294744" />
+    <property role="TrG5h" value="ConditionRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="35Lxa$XD5Up" role="1TKVEi">
+      <property role="IQ2ns" value="3562774642645294745" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2q5uhWZ9tjH" resolve="Condition" />
     </node>
   </node>
