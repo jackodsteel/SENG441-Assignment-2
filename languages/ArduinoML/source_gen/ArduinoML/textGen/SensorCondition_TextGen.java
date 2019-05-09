@@ -15,7 +15,7 @@ public class SensorCondition_TextGen extends TextGenDescriptorBase {
     final TextGenSupport tgs = new TextGenSupport(ctx);
     tgs.append("(digitalRead(");
     tgs.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getReferenceLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25db8aL, 0x2685791f3f25db8fL, "sensor")), MetaAdapterFactory.getProperty(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25d4eeL, 0x2685791f3f25db88L, "pin"))));
-    tgs.append(" == ");
+    tgs.append(") == ");
     tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25db8aL, 0x2685791f3f25db8dL, "expectedValue")));
     tgs.append(")");
   }

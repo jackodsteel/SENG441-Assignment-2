@@ -21,7 +21,11 @@ int fifthSeg = 5;
 int sixthSeg = 6;
 int seventhSeg = 7;
 int firstDigit = 8;
-int led = 13;// Declaring available sensors
+int led = 13;
+// Declaring available sensors
+int button = 10;
+// Declaring timer variables
+long timer = 0;
 
 
 // Declaring states
@@ -85,7 +89,6 @@ void setup()
   pinMode(firstDigit, OUTPUT);
   pinMode(led, OUTPUT);
   pinMode(button, INPUT);
-  long timer = 0;
 }
 
 int main(void)
@@ -120,7 +123,7 @@ int main(void)
     }
 
     if (3735208 == curr_state) {
-      if ((digitalRead(10 == HIGH)) {
+      if ((digitalRead(10) == HIGH)) {
         curr_state = 108404047;
         state_reset();
         continue;
@@ -128,7 +131,7 @@ int main(void)
     }
 
     if (110182 == curr_state) {
-      if ((digitalRead(10 == HIGH)) {
+      if ((digitalRead(10) == HIGH)) {
         curr_state = 108404047;
         state_reset();
         continue;
@@ -136,7 +139,7 @@ int main(void)
     }
 
     if (115276 == curr_state) {
-      if ((digitalRead(10 == HIGH)) {
+      if ((digitalRead(10) == HIGH)) {
         curr_state = 108404047;
         state_reset();
         continue;
@@ -144,7 +147,7 @@ int main(void)
     }
 
     if (108404047 == curr_state) {
-      if ((digitalRead(10 == LOW) && (timer % 1000 == 0)) {
+      if ((digitalRead(10) == LOW) && (timer % 1000 == 0)) {
         curr_state = 3735208;
         state_zero();
         continue;
