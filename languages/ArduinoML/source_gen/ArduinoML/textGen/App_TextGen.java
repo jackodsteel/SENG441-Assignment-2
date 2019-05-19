@@ -59,8 +59,31 @@ public class App_TextGen extends TextGenDescriptorBase {
         }
       }
     }
+    tgs.newLine();
     tgs.append("// Declaring available sensors");
     tgs.newLine();
+    {
+      Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f129644L, 0x2685791f3f25ebaaL, "sensors"));
+      final SNode lastItem = Sequence.fromIterable(collection).last();
+      for (SNode item : collection) {
+        tgs.appendNode(item);
+        if (item != lastItem) {
+          tgs.append("\n");
+        }
+      }
+    }
+    tgs.newLine();
+
+    tgs.append("// Declaring timer variables");
+    tgs.newLine();
+    ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f129644L, 0x2685791f3f25ebb0L, "timers"))).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        tgs.append("long ");
+        tgs.append(SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        tgs.append(" = 0;");
+        tgs.newLine();
+      }
+    });
 
     tgs.newLine();
     tgs.newLine();
@@ -101,15 +124,11 @@ public class App_TextGen extends TextGenDescriptorBase {
         tgs.newLine();
       }
     });
-    ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f129644L, 0x2685791f3f25ebb0L, "timers"))).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        tgs.indent();
-        tgs.append("long ");
-        tgs.append(SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-        tgs.append(" = 0;");
-        tgs.newLine();
-      }
-    });
+    tgs.indent();
+    tgs.append("state_");
+    tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getReferenceLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f129644L, 0x2685791f3f25ebb7L, "initial")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+    tgs.append("();");
+    tgs.newLine();
     ctx.getBuffer().area().decreaseIndent();
     tgs.append("}");
     tgs.newLine();
@@ -121,11 +140,6 @@ public class App_TextGen extends TextGenDescriptorBase {
     ctx.getBuffer().area().increaseIndent();
     tgs.indent();
     tgs.append("setup();");
-    tgs.newLine();
-    tgs.indent();
-    tgs.append("state_");
-    tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getReferenceLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f129644L, 0x2685791f3f25ebb7L, "initial")), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-    tgs.append("();");
     tgs.newLine();
     tgs.indent();
     tgs.append("while(true) {");
