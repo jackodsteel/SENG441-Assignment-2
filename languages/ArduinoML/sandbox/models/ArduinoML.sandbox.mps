@@ -166,6 +166,205 @@
         <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
       </node>
     </node>
+    <node concept="p_YXb" id="4lsnOuvUyRI" role="p_YXo">
+      <property role="TrG5h" value="three" />
+      <node concept="p_YX3" id="4lsnOuvUyTB" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZ9JBx" resolve="firstSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyTC" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$Po" resolve="secondSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyTD" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Pr" resolve="thirdSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyTE" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Tt" resolve="fourthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyTF" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$T$" resolve="fifthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyTG" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$TG" resolve="sixthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyTH" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
+      </node>
+    </node>
+    <node concept="p_YXb" id="4lsnOuvUyWH" role="p_YXo">
+      <property role="TrG5h" value="four" />
+      <node concept="p_YX3" id="4lsnOuvUyXs" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZ9JBx" resolve="firstSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyXt" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$Po" resolve="secondSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyXu" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Pr" resolve="thirdSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyXv" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$Tt" resolve="fourthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyXw" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$T$" resolve="fifthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyXx" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$TG" resolve="sixthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUyXy" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
+      </node>
+    </node>
+    <node concept="p_YXb" id="4lsnOuvUyYh" role="p_YXo">
+      <property role="TrG5h" value="five" />
+      <node concept="p_YX3" id="4lsnOuvUz2S" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZ9JBx" resolve="firstSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz2T" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$Po" resolve="secondSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz2U" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Pr" resolve="thirdSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz2V" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Tt" resolve="fourthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz2W" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$T$" resolve="fifthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz2X" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$TG" resolve="sixthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz2Y" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
+      </node>
+    </node>
+    <node concept="p_YXb" id="4lsnOuvUyZ8" role="p_YXo">
+      <property role="TrG5h" value="six" />
+      <node concept="p_YX3" id="4lsnOuvUz3e" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZ9JBx" resolve="firstSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3f" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$Po" resolve="secondSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3g" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Pr" resolve="thirdSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3h" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Tt" resolve="fourthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3i" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$T$" resolve="fifthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3j" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$TG" resolve="sixthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3k" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
+      </node>
+    </node>
+    <node concept="p_YXb" id="4lsnOuvUz01" role="p_YXo">
+      <property role="TrG5h" value="seven" />
+      <node concept="p_YX3" id="4lsnOuvUz3$" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZ9JBx" resolve="firstSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3_" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$Po" resolve="secondSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3A" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Pr" resolve="thirdSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3B" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$Tt" resolve="fourthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3C" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$T$" resolve="fifthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3D" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$TG" resolve="sixthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3E" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
+      </node>
+    </node>
+    <node concept="p_YXb" id="4lsnOuvUz0W" role="p_YXo">
+      <property role="TrG5h" value="eight" />
+      <node concept="p_YX3" id="4lsnOuvUz3U" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZ9JBx" resolve="firstSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3V" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$Po" resolve="secondSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3W" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Pr" resolve="thirdSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3X" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Tt" resolve="fourthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3Y" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$T$" resolve="fifthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz3Z" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$TG" resolve="sixthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz40" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
+      </node>
+    </node>
+    <node concept="p_YXb" id="4lsnOuvUz1T" role="p_YXo">
+      <property role="TrG5h" value="nine" />
+      <node concept="p_YX3" id="4lsnOuvUz4g" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZ9JBx" resolve="firstSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz4h" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$Po" resolve="secondSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz4i" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Pr" resolve="thirdSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz4j" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$Tt" resolve="fourthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz4k" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$T$" resolve="fifthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz4l" role="p_YX8">
+        <property role="p_YX2" value="HIGH" />
+        <ref role="p_YX0" node="2q5uhWZc$TG" resolve="sixthSeg" />
+      </node>
+      <node concept="p_YX3" id="4lsnOuvUz4m" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$TP" resolve="seventhSeg" />
+      </node>
+    </node>
     <node concept="p_YXb" id="2q5uhWZc_q8" role="p_YXo">
       <property role="TrG5h" value="reset" />
       <node concept="p_YX3" id="2q5uhWZc_qA" role="p_YX8">
@@ -235,7 +434,7 @@
       <ref role="pCaaW" node="2q5uhWZc$T0" resolve="zero" />
       <ref role="pCaaU" node="2q5uhWZc$W9" resolve="one" />
       <node concept="cPtCL" id="35Lxa$XE66f" role="cPtC9">
-        <ref role="cPtCK" node="35Lxa$XE64B" />
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
       </node>
     </node>
     <node concept="pCaaZ" id="2q5uhWZc_o6" role="pC9aU">
@@ -246,11 +445,67 @@
         <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
       </node>
     </node>
-    <node concept="pCaaZ" id="2q5uhWZc_pL" role="pC9aU">
-      <property role="TrG5h" value="twoToZero" />
+    <node concept="pCaaZ" id="4lsnOuvUz5$" role="pC9aU">
+      <property role="TrG5h" value="twoToThree" />
       <ref role="pCaaW" node="2q5uhWZc_oc" resolve="two" />
-      <ref role="pCaaU" node="2q5uhWZc$T0" resolve="zero" />
+      <ref role="pCaaU" node="4lsnOuvUyRI" resolve="three" />
+      <node concept="cPtCL" id="4lsnOuvUz5_" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="2q5uhWZc_pL" role="pC9aU">
+      <property role="TrG5h" value="threeToFour" />
+      <ref role="pCaaW" node="4lsnOuvUyRI" resolve="three" />
+      <ref role="pCaaU" node="4lsnOuvUyWH" resolve="four" />
       <node concept="cPtCL" id="35Lxa$XE66d" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUz66" role="pC9aU">
+      <property role="TrG5h" value="fourToFive" />
+      <ref role="pCaaW" node="4lsnOuvUyWH" resolve="four" />
+      <ref role="pCaaU" node="4lsnOuvUyYh" resolve="five" />
+      <node concept="cPtCL" id="4lsnOuvUz67" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUz6r" role="pC9aU">
+      <property role="TrG5h" value="fiveToSix" />
+      <ref role="pCaaW" node="4lsnOuvUyYh" resolve="five" />
+      <ref role="pCaaU" node="4lsnOuvUyZ8" resolve="six" />
+      <node concept="cPtCL" id="4lsnOuvUz6s" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUz6M" role="pC9aU">
+      <property role="TrG5h" value="sixToSeven" />
+      <ref role="pCaaW" node="4lsnOuvUyZ8" resolve="six" />
+      <ref role="pCaaU" node="4lsnOuvUz01" resolve="seven" />
+      <node concept="cPtCL" id="4lsnOuvUz6N" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUz7b" role="pC9aU">
+      <property role="TrG5h" value="sevenToEight" />
+      <ref role="pCaaW" node="4lsnOuvUz01" resolve="seven" />
+      <ref role="pCaaU" node="4lsnOuvUz0W" resolve="eight" />
+      <node concept="cPtCL" id="4lsnOuvUz7c" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUz7A" role="pC9aU">
+      <property role="TrG5h" value="eightToNine" />
+      <ref role="pCaaW" node="4lsnOuvUz0W" resolve="eight" />
+      <ref role="pCaaU" node="4lsnOuvUz1T" resolve="nine" />
+      <node concept="cPtCL" id="4lsnOuvUz7B" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUz83" role="pC9aU">
+      <property role="TrG5h" value="nineToZero" />
+      <ref role="pCaaU" node="2q5uhWZc$T0" resolve="zero" />
+      <ref role="pCaaW" node="4lsnOuvUz1T" resolve="nine" />
+      <node concept="cPtCL" id="4lsnOuvUz84" role="cPtC9">
         <ref role="cPtCK" node="35Lxa$XE64B" resolve="oneSecond" />
       </node>
     </node>
@@ -270,11 +525,75 @@
         <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
       </node>
     </node>
+    <node concept="pCaaZ" id="4lsnOuvUz8y" role="pC9aU">
+      <property role="TrG5h" value="resetTwo" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="2q5uhWZc_oc" resolve="two" />
+      <node concept="cPtCL" id="4lsnOuvUz8z" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
     <node concept="pCaaZ" id="2q5uhWZc_sI" role="pC9aU">
       <property role="TrG5h" value="resetTwo" />
       <ref role="pCaaW" node="2q5uhWZc_oc" resolve="two" />
       <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
       <node concept="cPtCL" id="35Lxa$XE667" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUz9w" role="pC9aU">
+      <property role="TrG5h" value="resetThree" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="4lsnOuvUyRI" resolve="three" />
+      <node concept="cPtCL" id="4lsnOuvUz9x" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUza3" role="pC9aU">
+      <property role="TrG5h" value="resetFour" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="4lsnOuvUyWH" resolve="four" />
+      <node concept="cPtCL" id="4lsnOuvUza4" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUzaC" role="pC9aU">
+      <property role="TrG5h" value="resetFive" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="4lsnOuvUyYh" resolve="five" />
+      <node concept="cPtCL" id="4lsnOuvUzaD" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUzbf" role="pC9aU">
+      <property role="TrG5h" value="resetSix" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="4lsnOuvUyZ8" resolve="six" />
+      <node concept="cPtCL" id="4lsnOuvUzbg" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUzbS" role="pC9aU">
+      <property role="TrG5h" value="resetSeven" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="4lsnOuvUz01" resolve="seven" />
+      <node concept="cPtCL" id="4lsnOuvUzbT" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUzcz" role="pC9aU">
+      <property role="TrG5h" value="resetEight" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="4lsnOuvUz0W" resolve="eight" />
+      <node concept="cPtCL" id="4lsnOuvUzc$" role="cPtC9">
+        <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="4lsnOuvUzdg" role="pC9aU">
+      <property role="TrG5h" value="resetNine" />
+      <ref role="pCaaU" node="2q5uhWZc_q8" resolve="reset" />
+      <ref role="pCaaW" node="4lsnOuvUz1T" resolve="nine" />
+      <node concept="cPtCL" id="4lsnOuvUzdh" role="cPtC9">
         <ref role="cPtCK" node="35Lxa$XE641" resolve="buttonPressed" />
       </node>
     </node>

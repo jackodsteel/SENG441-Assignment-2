@@ -266,7 +266,6 @@
   <node concept="1TIwiD" id="35Lxa$XD5Uo">
     <property role="EcuMT" value="3562774642645294744" />
     <property role="TrG5h" value="ConditionRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="35Lxa$XD5Up" role="1TKVEi">
       <property role="IQ2ns" value="3562774642645294745" />
       <property role="20lmBu" value="reference" />

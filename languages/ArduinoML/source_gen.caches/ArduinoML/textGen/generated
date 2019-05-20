@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-5prerflbpavzs2vg6jjdshfpe20m0b6">
-  <files names="Action_TextGen.java:Actuator_TextGen.java:App_TextGen.java:SensorCondition_TextGen.java:Sensor_TextGen.java:State_TextGen.java:TextGenAspectDescriptor.java:TimerCondition_TextGen.java:Timer_TextGen.java:Transition_TextGen.java" />
+<product version="3" modelHash="-em87pp33p8l1ghqb20gfipdjsydolfe">
+  <files names="Action_TextGen.java:Actuator_TextGen.java:App_TextGen.java:ConditionRef_TextGen.java:SensorCondition_TextGen.java:Sensor_TextGen.java:State_TextGen.java:TextGenAspectDescriptor.java:TimerCondition_TextGen.java:Timer_TextGen.java:Transition_TextGen.java" />
 </product>
 

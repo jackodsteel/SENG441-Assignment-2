@@ -89,12 +89,12 @@ void setup()
   pinMode(firstDigit, OUTPUT);
   pinMode(led, OUTPUT);
   pinMode(button, INPUT);
+  state_zero();
 }
 
 int main(void)
 {
   setup();
-  state_zero();
   while(true) {
     _delay_ms(1);
     timer += 1;
@@ -147,7 +147,7 @@ int main(void)
     }
 
     if (108404047 == curr_state) {
-      if ((digitalRead(10) == LOW) && (timer % 1000 == 0)) {
+      if ((timer % 1000 == 0) && (digitalRead(10) == LOW)) {
         curr_state = 3735208;
         state_zero();
         continue;
