@@ -418,32 +418,43 @@
   </node>
   <node concept="24kQdi" id="35Lxa$XFqte">
     <ref role="1XX52x" to="jrrn:2q5uhWZ9tIa" resolve="SensorCondition" />
-    <node concept="3EZMnI" id="35Lxa$XFqtX" role="2wV5jI">
-      <node concept="VPM3Z" id="35Lxa$XFqtZ" role="3F10Kt" />
-      <node concept="3F0ifn" id="35Lxa$XFqu1" role="3EZMnx">
-        <property role="3F0ifm" value="Sensor condition" />
+    <node concept="3EZMnI" id="1cJ0BXS58la" role="2wV5jI">
+      <node concept="2iRkQZ" id="1cJ0BXS58lb" role="2iSdaV" />
+      <node concept="3EZMnI" id="1cJ0BXS58nD" role="3EZMnx">
+        <node concept="VPM3Z" id="1cJ0BXS58nF" role="3F10Kt" />
+        <node concept="3F0ifn" id="1cJ0BXS58nH" role="3EZMnx">
+          <property role="3F0ifm" value="Sensor condition" />
+        </node>
+        <node concept="3F0A7n" id="1cJ0BXS58oc" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="1cJ0BXS58ok" role="3EZMnx">
+          <property role="3F0ifm" value="is true when:" />
+        </node>
+        <node concept="l2Vlx" id="1cJ0BXS58nI" role="2iSdaV" />
       </node>
-      <node concept="3F0A7n" id="35Lxa$XFqub" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="35Lxa$XFquj" role="3EZMnx">
-        <property role="3F0ifm" value="on sensor" />
-      </node>
-      <node concept="1iCGBv" id="35Lxa$XFqut" role="3EZMnx">
-        <ref role="1NtTu8" to="jrrn:2q5uhWZ9tIf" resolve="sensor" />
-        <node concept="1sVBvm" id="35Lxa$XFquv" role="1sWHZn">
-          <node concept="3F0A7n" id="35Lxa$XFquD" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="3EZMnI" id="1cJ0BXS58p8" role="3EZMnx">
+        <node concept="VPM3Z" id="1cJ0BXS58pa" role="3F10Kt" />
+        <node concept="3XFhqQ" id="1cJ0BXS58qY" role="3EZMnx" />
+        <node concept="3F0ifn" id="1cJ0BXS58pc" role="3EZMnx">
+          <property role="3F0ifm" value="sensor" />
+        </node>
+        <node concept="1iCGBv" id="1cJ0BXS58pG" role="3EZMnx">
+          <ref role="1NtTu8" to="jrrn:2q5uhWZ9tIf" resolve="sensor" />
+          <node concept="1sVBvm" id="1cJ0BXS58pI" role="1sWHZn">
+            <node concept="3F0A7n" id="1cJ0BXS58pQ" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
           </node>
         </node>
-      </node>
-      <node concept="l2Vlx" id="35Lxa$XFqu2" role="2iSdaV" />
-      <node concept="3F0ifn" id="35Lxa$XFquX" role="3EZMnx">
-        <property role="3F0ifm" value="is true when value is" />
-      </node>
-      <node concept="3F0A7n" id="35Lxa$XFqvf" role="3EZMnx">
-        <ref role="1NtTu8" to="jrrn:2q5uhWZ9tId" resolve="expectedValue" />
+        <node concept="3F0ifn" id="1cJ0BXS58rc" role="3EZMnx">
+          <property role="3F0ifm" value="has value" />
+        </node>
+        <node concept="3F0A7n" id="1cJ0BXS58rs" role="3EZMnx">
+          <ref role="1NtTu8" to="jrrn:2q5uhWZ9tId" resolve="expectedValue" />
+        </node>
+        <node concept="l2Vlx" id="1cJ0BXS58pd" role="2iSdaV" />
       </node>
     </node>
   </node>
