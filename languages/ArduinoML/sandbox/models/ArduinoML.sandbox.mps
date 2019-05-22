@@ -609,5 +609,176 @@
       </node>
     </node>
   </node>
+  <node concept="p_YXr" id="6sghZ$3Vv6W">
+    <property role="TrG5h" value="MorseCode" />
+    <ref role="pC9aC" node="6sghZ$3Vv6X" resolve="led_on" />
+    <node concept="pCaa4" id="6sghZ$3VvcG" role="cVRdo">
+      <property role="TrG5h" value="time-0500" />
+      <property role="pCaa1" value="500" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3VvcM" role="cVRdo">
+      <property role="TrG5h" value="time-1000" />
+      <property role="pCaa1" value="1000" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3VvcY" role="cVRdo">
+      <property role="TrG5h" value="time-1500" />
+      <property role="pCaa1" value="1500" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3Vvd8" role="cVRdo">
+      <property role="TrG5h" value="time-2000" />
+      <property role="pCaa1" value="2000" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3Vvdk" role="cVRdo">
+      <property role="TrG5h" value="time-2500" />
+      <property role="pCaa1" value="2500" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3Vvdy" role="cVRdo">
+      <property role="TrG5h" value="time-3000" />
+      <property role="pCaa1" value="3000" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3VvdM" role="cVRdo">
+      <property role="TrG5h" value="time-3500" />
+      <property role="pCaa1" value="3500" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3Vve4" role="cVRdo">
+      <property role="TrG5h" value="time-5000" />
+      <property role="pCaa1" value="5000" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3Vveo" role="cVRdo">
+      <property role="TrG5h" value="time-5500" />
+      <property role="pCaa1" value="5500" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3VveI" role="cVRdo">
+      <property role="TrG5h" value="time-6000" />
+      <property role="pCaa1" value="6000" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa4" id="6sghZ$3Vvf6" role="cVRdo">
+      <property role="TrG5h" value="time-6500" />
+      <property role="pCaa1" value="6500" />
+      <ref role="pCaa3" node="2q5uhWZ9JBS" resolve="timer" />
+    </node>
+    <node concept="pCaa7" id="6sghZ$3Vv8J" role="pC9aJ">
+      <property role="TrG5h" value="timer" />
+    </node>
+    <node concept="p_YXb" id="6sghZ$3Vv6X" role="p_YXo">
+      <property role="TrG5h" value="led_on" />
+      <node concept="p_YX3" id="6sghZ$3Vv8p" role="p_YX8">
+        <ref role="p_YX0" node="2q5uhWZc$PQ" resolve="led" />
+      </node>
+    </node>
+    <node concept="p_YXb" id="6sghZ$3Vv8A" role="p_YXo">
+      <property role="TrG5h" value="led_off" />
+      <node concept="p_YX3" id="6sghZ$3Vv8G" role="p_YX8">
+        <property role="p_YX2" value="LOW" />
+        <ref role="p_YX0" node="2q5uhWZc$PQ" resolve="led" />
+      </node>
+    </node>
+    <node concept="p_YXg" id="6sghZ$3Vv7G" role="p_YXk">
+      <property role="TrG5h" value="digit" />
+      <property role="p_YXd" value="8" />
+    </node>
+    <node concept="p_YXg" id="6sghZ$3Vv7z" role="p_YXk">
+      <property role="TrG5h" value="led" />
+      <property role="p_YXd" value="13" />
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vv70" role="pC9aU">
+      <property role="TrG5h" value="h-1" />
+      <ref role="pCaaW" node="6sghZ$3Vv6X" resolve="led_on" />
+      <ref role="pCaaU" node="6sghZ$3Vv8A" resolve="led_off" />
+      <node concept="cPtCL" id="6sghZ$3Wgi0" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3VvcG" resolve="time-0500" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vv9$" role="pC9aU">
+      <property role="TrG5h" value="h-2" />
+      <ref role="pCaaW" node="6sghZ$3Vv8A" resolve="led_off" />
+      <ref role="pCaaU" node="6sghZ$3Vv6X" resolve="led_on" />
+      <node concept="cPtCL" id="6sghZ$3Wgi3" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3VvcM" resolve="time-1000" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vv9E" role="pC9aU">
+      <property role="TrG5h" value="h-3" />
+      <ref role="pCaaW" node="6sghZ$3Vv6X" resolve="led_on" />
+      <ref role="pCaaU" node="6sghZ$3Vv8A" resolve="led_off" />
+      <node concept="cPtCL" id="6sghZ$3Wgi6" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3VvcY" resolve="time-1500" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vv9M" role="pC9aU">
+      <property role="TrG5h" value="h-4" />
+      <ref role="pCaaW" node="6sghZ$3Vv8A" resolve="led_off" />
+      <ref role="pCaaU" node="6sghZ$3Vv6X" resolve="led_on" />
+      <node concept="cPtCL" id="6sghZ$3Wgi9" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3Vvd8" resolve="time-2000" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vv9W" role="pC9aU">
+      <property role="TrG5h" value="h-5" />
+      <ref role="pCaaW" node="6sghZ$3Vv6X" resolve="led_on" />
+      <ref role="pCaaU" node="6sghZ$3Vv8A" resolve="led_off" />
+      <node concept="cPtCL" id="6sghZ$3Wgic" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3Vvdk" resolve="time-2500" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vva8" role="pC9aU">
+      <property role="TrG5h" value="h-6" />
+      <ref role="pCaaW" node="6sghZ$3Vv8A" resolve="led_off" />
+      <ref role="pCaaU" node="6sghZ$3Vv6X" resolve="led_on" />
+      <node concept="cPtCL" id="6sghZ$3Wgif" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3Vvdy" resolve="time-3000" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vvam" role="pC9aU">
+      <property role="TrG5h" value="h-7" />
+      <ref role="pCaaW" node="6sghZ$3Vv6X" resolve="led_on" />
+      <ref role="pCaaU" node="6sghZ$3Vv8A" resolve="led_off" />
+      <node concept="cPtCL" id="6sghZ$3Wgii" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3VvdM" resolve="time-3500" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3VvaA" role="pC9aU">
+      <property role="TrG5h" value="s-1" />
+      <ref role="pCaaW" node="6sghZ$3Vv8A" resolve="led_off" />
+      <ref role="pCaaU" node="6sghZ$3Vv6X" resolve="led_on" />
+      <node concept="cPtCL" id="6sghZ$3Wgil" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3Vve4" resolve="time-5000" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3VvaS" role="pC9aU">
+      <property role="TrG5h" value="i-1" />
+      <ref role="pCaaW" node="6sghZ$3Vv6X" resolve="led_on" />
+      <ref role="pCaaU" node="6sghZ$3Vv8A" resolve="led_off" />
+      <node concept="cPtCL" id="6sghZ$3Wgio" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3Vveo" resolve="time-5500" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vvbc" role="pC9aU">
+      <property role="TrG5h" value="i-2" />
+      <ref role="pCaaW" node="6sghZ$3Vv8A" resolve="led_off" />
+      <ref role="pCaaU" node="6sghZ$3Vv6X" resolve="led_on" />
+      <node concept="cPtCL" id="6sghZ$3Wgir" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3VveI" resolve="time-6000" />
+      </node>
+    </node>
+    <node concept="pCaaZ" id="6sghZ$3Vvby" role="pC9aU">
+      <property role="TrG5h" value="i-3" />
+      <ref role="pCaaW" node="6sghZ$3Vv6X" resolve="led_on" />
+      <ref role="pCaaU" node="6sghZ$3Vv8A" resolve="led_off" />
+      <node concept="cPtCL" id="6sghZ$3Wgiu" role="cPtC9">
+        <ref role="cPtCK" node="6sghZ$3Vvf6" resolve="time-6500" />
+      </node>
+    </node>
+  </node>
 </model>
 
