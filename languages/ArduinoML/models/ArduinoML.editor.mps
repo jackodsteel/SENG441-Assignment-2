@@ -151,7 +151,7 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F0ifn" id="35Lxa$XGWS0" role="3EZMnx">
-          <property role="3F0ifm" value="triggers actions:" />
+          <property role="3F0ifm" value="performs actions:" />
         </node>
         <node concept="l2Vlx" id="2q5uhWZ4SHL" role="2iSdaV" />
       </node>
@@ -297,9 +297,6 @@
         <node concept="VPM3Z" id="35Lxa$XF_ro" role="3F10Kt" />
         <node concept="3F0ifn" id="35Lxa$XAPip" role="3EZMnx">
           <property role="3F0ifm" value="Transition" />
-        </node>
-        <node concept="3F0A7n" id="35Lxa$XAPiz" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F0ifn" id="35Lxa$XAPiM" role="3EZMnx">
           <property role="3F0ifm" value="from" />

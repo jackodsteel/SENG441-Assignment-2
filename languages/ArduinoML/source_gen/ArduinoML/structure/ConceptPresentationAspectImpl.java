@@ -14,10 +14,8 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_App;
   private ConceptPresentation props_Condition;
   private ConceptPresentation props_ConditionRef;
-  private ConceptPresentation props_ConditionReference;
   private ConceptPresentation props_Sensor;
   private ConceptPresentation props_SensorCondition;
-  private ConceptPresentation props_SevenSegment;
   private ConceptPresentation props_State;
   private ConceptPresentation props_Timer;
   private ConceptPresentation props_TimerCondition;
@@ -62,13 +60,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ConditionRef = cpb.create();
         }
         return props_ConditionRef;
-      case LanguageConceptSwitch.ConditionReference:
-        if (props_ConditionReference == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByReference(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x455c5f479fe4c639L, 0x455c5f479fe4c63aL, "condition", "", "");
-          props_ConditionReference = cpb.create();
-        }
-        return props_ConditionReference;
       case LanguageConceptSwitch.Sensor:
         if (props_Sensor == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -83,13 +74,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_SensorCondition = cpb.create();
         }
         return props_SensorCondition;
-      case LanguageConceptSwitch.SevenSegment:
-        if (props_SevenSegment == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.presentationByName();
-          props_SevenSegment = cpb.create();
-        }
-        return props_SevenSegment;
       case LanguageConceptSwitch.State:
         if (props_State == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

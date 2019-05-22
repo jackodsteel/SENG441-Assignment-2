@@ -117,7 +117,7 @@ import jetbrains.mps.editor.runtime.EditorCell_Empty;
     }
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "triggers actions:");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "performs actions:");
     editorCell.setCellId("Constant_sjqidp_c0a");
     editorCell.setDefaultText("");
     return editorCell;
