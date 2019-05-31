@@ -24,7 +24,7 @@ public class Transition_TextGen extends TextGenDescriptorBase {
     tgs.indent();
     tgs.append("if (");
     {
-      Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25dba0L, 0x2685791f3f25dba8L, "condition"));
+      Iterable<SNode> collection = SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x662d4de51c934765L, 0x9ae156648221cb83L, 0x2685791f3f25dba0L, 0x317184a93da45ea0L, "conditions"));
       final SNode lastItem = Sequence.fromIterable(collection).last();
       for (SNode item : collection) {
         tgs.appendNode(item);

@@ -17,7 +17,7 @@ public class App_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("#incude <avr/io.h>");
+    tgs.append("#include <avr/io.h>");
     tgs.newLine();
     tgs.append("#include <util/delay.h>");
     tgs.newLine();
