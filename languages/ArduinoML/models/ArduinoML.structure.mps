@@ -77,7 +77,7 @@
       <property role="IQ2ns" value="2775757920454175653" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="transitions" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2q5uhWZ9tIw" resolve="Transition" />
     </node>
     <node concept="1TJgyj" id="2q5uhWZ9uIE" role="1TKVEi">
